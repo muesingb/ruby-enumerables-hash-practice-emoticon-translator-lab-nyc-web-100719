@@ -6,7 +6,7 @@ def load_library (file_path)
   translator_hash = {:get_meaning => {}, :get_emoticon => {}}
   emojis.each do |meaning_key, emoticons_value|
     get_meaning = translator_hash[:get_meaning]
-    translator_hash[:get_meaning][emoticons_value[0]] = meaning_key
+    get_meaning[emoticons_value[0]] = meaning_key
   end
 
   #emojis.each do |meaning, emoticons|
