@@ -12,7 +12,7 @@ end
 
 def get_japanese_emoticon (file_path, emoticon) #takes Western emoticon, :) and translate it to Japanese emoticon
   load_library(file_path)
-  
+  translator_hash[:get_emoticon][emoticon]
 end
 
 def get_english_meaning
