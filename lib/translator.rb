@@ -13,9 +13,9 @@ end
 def get_japanese_emoticon (file_path, emoticon) #takes Western emoticon, :) and translate it to Japanese emoticon
   library = load_library(file_path)
   if library[translator_hash][:get_emoticon][emoticon]
-  #translator_hash[:get_emoticon][emoticon]
-#else "Sorry, that emoticon was not found"
-#end
+  translator_hash[:get_emoticon][emoticon]
+else "Sorry, that emoticon was not found"
+end
 end
 
 def get_english_meaning (file_path, emoticon)
