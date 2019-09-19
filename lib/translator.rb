@@ -15,7 +15,7 @@ def get_japanese_emoticon (file_path, emoticon) #takes Western emoticon, :) and 
   #if translator_hash[:get_emoticon][emoticon]
   #translator_hash[:get_emoticon][emoticon]
 #else "Sorry"
-end
+#end
 end
 
 def get_english_meaning
