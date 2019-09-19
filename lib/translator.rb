@@ -1,4 +1,3 @@
-# require modules here
 def load_library (file_path)
   require "yaml"
   emojis = YAML.load_file(file_path)
